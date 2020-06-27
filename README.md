@@ -1,2 +1,2 @@
 # Table node & vue
-![alt text](https://github.com/geopozitiv/table/Screenshot_2020-06-27 client.png.jpg?raw=true)
+![alt text](https://github.com/geopozitiv/table/cover.png.jpg?raw=true)
