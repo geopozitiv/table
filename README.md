@@ -1,2 +1,2 @@
 # Table node & vue
-![picture](https://github.com/geopozitiv/table/cover.png.jpg)
+![picture](https://github.com/geopozitiv/table/cover.png)
