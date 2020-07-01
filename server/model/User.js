@@ -24,27 +24,22 @@ const user = new mongoose.Schema({
     },
     personalPhone: {
         type: String,
-        required: true,
         trim: true
     },
     location: {
         type: String,
-        required: true,
         trim: true
     },
     company: {
         type: String,
-        required: true,
         trim: true
     },
     role: {
         type: String,
-        required: true,
         trim: true
     },
     rate: {
         type: String,
-        required: true,
         trim: true
     },
     workEmail: {
@@ -61,12 +56,10 @@ const user = new mongoose.Schema({
     },
     personalEmail: {
         type: String,
-        unique: true,
-        required: true,
         trim: true,
         lowercase: true,
         validate(value) {
-            if (!validator.isEmail(value)) {
+            if (value && !validator.isEmail(value)) {
                 throw new Error('Email is invalid')
             }
         }
