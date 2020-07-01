@@ -1,6 +1,6 @@
 <template>
     <div>
-        <vs-dialog n v-model="on">
+        <vs-dialog v-model="on">
         <template #header>
           <h4 class="not-margin">
             Add <b>Employee</b>
@@ -290,6 +290,7 @@ export default {
         this.Company = ''
         this.Role = ''
         this.Rate = ''
+        this.add = false
     }
   }
 }
